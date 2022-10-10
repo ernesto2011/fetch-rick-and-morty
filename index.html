@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon"  type="image/jpg"  href="https://i.pinimg.com/originals/32/34/53/32345355b966b609a1f77598799a3b09.jpg" />
+    <title>Rick and Morty API</title>
+</head>
+<body>
+    <header></header>
+
+    <section class="espaco">
+    <section id="character-list"></section>
+    </section>]
+
+    <button id="more" onclick="viewMore()">VIEW MORE</button>
+    <footer></footer>
+    
+    <section id="modal-overlay">
+        <div id="modal" class="modal-item">
+            <span id="close-modal">x</span>
+            <img class="modal-item" id="modal-image" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Imagem do Personagem" />
+            <div>
+                <h2 class="modal-item" id="modal-name">Rick Sanchez</h2>
+
+                <h4 class="modal-item">Species</h4>
+                <p class="modal-item" id="modal-species">Human</p>
+                <h4 class="modal-item">Gender</h4>
+                <p class="modal-item" id="modal-gender">Male</p>
+                <h4 class="modal-item">Origin</h4>
+                <p class="modal-item" id="modal-origin">Earth (C-137)</p>
+                <h4 class="modal-item">Location</h4>
+                <p class="modal-item" id="modal-location">Citadel of Ricks</p>
+                <h4 class="modal-item">Status</h4>
+                <p class="modal-item" id="modal-status">Alive</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
